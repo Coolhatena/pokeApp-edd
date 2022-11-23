@@ -12,7 +12,7 @@ const createPokemonCard = (pokemon) => {
 	const pokemonWeight = document.createElement('p');
 	
 	pokemonCard.className = 'pokemon-card'
-	pokemonName.textContent = `${capitalizeFirst(pokemon.name)} `;
+	pokemonName.textContent = `${capitalizeFirst(pokemon.name).replace('-',' ')} `;
 	pokemonName.className = 'name'
 	pokemonId.textContent = `No. ${pokemon.id}`
 	pokemonImg.src = pokemon.sprites.front_default;
