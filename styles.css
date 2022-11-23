@@ -1,0 +1,220 @@
+:root {
+	--normalColor: #A8A77A;
+	--fireColor: #EE8130;
+	--waterColor: #6390F0;
+	--electricColor: #F7D02C;
+	--grassColor: #7AC74C;
+	--iceColor: #96D9D6;
+	--fightingColor: #C22E28;
+	--poisonColor: #A33EA1;
+	--groundColor: #E2BF65;
+	--flyingColor: #A98FF3;
+	--psychicColor: #F95587;
+	--bugColor: #A6B91A;
+	--rockColor: #B6A136;
+	--ghostColor: #735797;
+	--dragonColor: #6F35FC;
+	--darkColor: #705746;
+	--steelColor: #B7B7CE;
+	--fairyColor: #D685AD;
+}
+
+body {
+	background: url(./src/img/pokemonBackground.jpg) no-repeat center fixed;
+	background-size: cover;
+	font-family: 'Teko', sans-serif, Arial, Helvetica;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	align-items: center;
+	background-color: #ee1515;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 10vh;
+	padding: 0.5rem;
+}
+
+footer {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	background: #d3d3d3;
+	border-top: 7px solid #222224;
+ }
+
+ footer p {
+	font-size: 1.25rem;
+ }
+
+ footer img {
+	margin: 0px 5px;
+	width: 1.5rem;
+	height: 1.5rem;
+ }
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check input {
+    margin-right: 5px;
+}
+
+.check p {
+    font-size: 19px;
+    padding: 0%;
+    margin: 0%;
+}
+
+form .pokeText {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	margin-right: 1rem;
+}
+
+.content {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.pokemon-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.pokemon-card {
+	align-items: center;
+	background-color: #ececec;
+	border-radius: 5%;
+	border: 2px solid #808080;
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	justify-content: center;
+	padding: 0.5rem;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+
+.pokemon-card .name {
+	font-size:x-large;
+	margin: 0.1rem;
+}
+
+.pokemon-card p {
+	font-size:larger;
+	margin: 0.1rem;
+}
+
+.pokemon-card p span {
+	color: #808080;
+	font-size: medium;
+}
+
+.pokemon-card .types {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.pokemon-card .types .type {
+	border-radius: 10%;
+	color: white;
+	font-size: medium;
+	padding: small;
+	text-align: center;
+	width: 40%;
+}
+
+/* 
+Lord forgive me for the sins i have made
+*/
+
+.pokemon-card .normal {
+	background-color: var(--normalColor);
+}
+
+.pokemon-card .fire {
+	background-color: var(--fireColor);
+}
+
+.pokemon-card .water {
+	background-color: var(--waterColor);
+}
+
+.pokemon-card .electric {
+	background-color: var(--electricColor);
+}
+
+.pokemon-card .grass {
+	background-color: var(--grassColor);
+}
+
+.pokemon-card .ice {
+	background-color: var(--iceColor);
+}
+
+.pokemon-card .fighting {
+	background-color: var(--fightingColor);
+}
+
+.pokemon-card .poison {
+	background-color: var(--poisonColor);
+}
+
+.pokemon-card .ground {
+	background-color: var(--groundColor);
+}
+
+.pokemon-card .flying {
+	background-color: var(--flyingColor);
+}
+
+.pokemon-card .psychic {
+	background-color: var(--psychicColor);
+}
+
+.pokemon-card .bug {
+	background-color: var(--bugColor);
+}
+
+.pokemon-card .rock {
+	background-color: var(--rockColor);
+}
+	
+.pokemon-card .ghost {
+	background-color: var(--ghostColor);
+}
+
+.pokemon-card .dragon {
+	background-color: var(--dragonColor);
+}
+
+.pokemon-card .dark {
+	background-color: var(--darkColor);
+}
+
+.pokemon-card .steel {
+	background-color: var(--steelColor);
+}
+
+.pokemon-card .fairy {
+	background-color: var(--fairyColor);
+}
