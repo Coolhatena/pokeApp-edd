@@ -3,7 +3,6 @@ import capitalizeFirst from './capitalizeFirst.js';
 import createTypes from './createTypes.js';
 
 const createPokemonCard = (pokemon) => {
-	console.log(pokemon)
 	const pokemonCard = document.createElement('div');
 	const pokemonName = document.createElement('p');
 	const pokemonId = document.createElement('span');

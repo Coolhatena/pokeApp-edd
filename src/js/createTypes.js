@@ -2,7 +2,6 @@
 import capitalizeFirst from './capitalizeFirst.js';
 
 const createTypes = (types) =>{
-	console.log(types)
 	const pokemonTypes = document.createElement('div');
 	pokemonTypes.className = 'types'
 

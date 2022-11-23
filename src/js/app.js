@@ -12,7 +12,6 @@ const pokemonSugestions = document.getElementById("pokemonSugestions")
 const onChange = () => {
 	const data = pokeText.value.toLowerCase();
 	const sugestionsList = pokemonsList.filter(pokemon => pokemon.toLowerCase().includes(data))
-	console.log(sugestionsList)
 	pokemonSugestions.innerHTML = ""
 	
 	sugestionsList.forEach( pokemon =>{
