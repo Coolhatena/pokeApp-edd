@@ -46,5 +46,6 @@ const onSubmit = async (event) =>{
 	pokemonSugestions.innerHTML = ''
 }
 
+pokeText.setAttribute('placeholder', `Ej. ${pokemonsList[Math.floor(Math.random() * pokemonsList.length)]}`)
 pokeText.addEventListener('input', onChange);
 form.addEventListener('submit', onSubmit);
