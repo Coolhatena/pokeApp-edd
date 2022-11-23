@@ -39,6 +39,10 @@ header {
 	padding: 0.5rem;
 }
 
+header img{
+	padding-top: 0.5rem;
+}
+
 footer {
 	display: flex;
 	position: fixed;
